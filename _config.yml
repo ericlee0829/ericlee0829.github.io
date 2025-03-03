@@ -25,8 +25,8 @@ description              : "Tech blog for autonomous vehicles"
 url                      : "https://ericlee0829.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/images/git_header_image.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/images/git_logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : "/assets/git_header_image.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/git_logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
