@@ -115,8 +115,8 @@ analytics:
 author:
   name             : "Wooyoung Lee"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "SW engineer spcializing in autonomous driving sensor fusion"
+  location         : "Seoul, Republic of Korea"
   email            : "ericlee0829@gmail.com"
   links:
     - label: "Email"
