@@ -1,6 +1,6 @@
 ---
 title: "[2016 CVPR] Deep residual learning for image recognition"
-date: 2025-03-03
+date: 2025-03-16
 categories: [Perception]
 tags: [ResNet, PaperReview]
 ---
@@ -44,6 +44,7 @@ RESNET에서는 identity mapping을 통해 **residual의 개념을 적용한 결
 ### Residual learning
 각 측이 단순히 원하는 함수 H(x)를 학습하는 대신, 입력 x에 대한 residual function F(x) = H(x)-x를 학습하도록 재구성하여 원하는 출력이 F(x)+x가 되도록하여 신경망이 학습할 수 있도록 함
 ![alt text](../images/resnet_fig_1.png)
+
 **Why?** 네트워크가 여러 layer의 비선형성을 통해 복잡한 함수를 근사할 때. residual function이 원래의 함수를 학습하는 것보다 최적화에 더 용이할 수 있다는 가정에 기반함
 - **Gradient vanishing 문제 완화**: 이전 레이어의 입력이 출력과 합쳐져 다음 레이어로 들어가기 때문에, 이전 레이어의 정보들이 보다 더 오래 살아남아 최적화에 도움이 됨
 - **단순한 함수 학습**: Residual block은 입력과 출력의 차이(residual)을 학습하도록 설계되어있어, 복잡한 함수 대신 상대적으로 간단한 잔여를 학습하여 학습이 안정적으로 진행되도록 도움을 줌
@@ -68,6 +69,7 @@ Shortcut connection은 네트워크의 복잡도를 증가시키지 않고, resi
 - 1x1 convolution: 차원을 축소 및 복원
 - 3x3 convolution: 더 작은 차원에서 feature들을 추출
 ![alt_text](../images/resnet_fig_2.png)
+
 # Conclusion
 본 논문은 딥러닝 모델의 깊이가 깊어질 때 발생하는 학습상의 어려움을 해결할 수 있는 새로운 방법을 제안함으로써, residual learning이 딥러닝 모델의 효율적인 학습과정의 향상에 기여할 수 있음을 입증함
 
