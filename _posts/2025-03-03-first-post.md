@@ -68,7 +68,7 @@ Shortcut connection은 네트워크의 복잡도를 증가시키지 않고, resi
 - 즉, 효율성을 유지하면서 연산량을 줄이는 효과를 가짐
 - 1x1 convolution: 차원을 축소 및 복원
 - 3x3 convolution: 더 작은 차원에서 feature들을 추출
-![bottle_neck](../assets/images/resnet_fig_2.png)
+![bottle_neck](/assets/images/resnet_fig_2.png)
 
 # Conclusion
 본 논문은 딥러닝 모델의 깊이가 깊어질 때 발생하는 학습상의 어려움을 해결할 수 있는 새로운 방법을 제안함으로써, residual learning이 딥러닝 모델의 효율적인 학습과정의 향상에 기여할 수 있음을 입증함
